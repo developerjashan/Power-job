@@ -1,0 +1,298 @@
+.toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+}
+.navbar-brand mb-0 h1{
+    margin-left: 0px;
+}
+.sidebar{
+    position: fixed;
+    width: 170px;
+    height: 100%;
+    background: #151719;
+   
+}
+.sidebar ul li{
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar.active{
+    left: 0px;
+}
+
+#btna td input{
+    width: 100px;
+    background: #151719;
+    color: rgb(34, 122, 180);
+}   
+.table1{
+    margin-top: 50px;
+    margin-left: 300px;
+	text-align: center;
+	background: #333;
+    color: #fff;
+}
+table{
+    margin-top: 50px;
+    margin-left: 400px;
+	text-align: center;
+	background: #333;
+	color: black;
+}
+#show th, #show td{
+    margin-left: 800px;
+    padding: 13px;
+    width: 180px;
+   
+}
+.toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+}
+.navbar-brand mb-0 h1{
+    margin-left: 0px;
+}
+
+.sidebar{
+    position: fixed;
+    width: 170px;
+    height: 100%;
+    background: #151719;
+   
+}
+.sidebar ul li{
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar.active{
+    left: 0px;
+}
+.form-group{
+    width: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.form-group1{
+    width: 700px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.form-group2{
+    width: 700px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.form-group3{
+    width: 700px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.btn-warning{
+    width: 100px;
+    height: 50px;
+    margin-left: 490px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+     width: 600px;
+     background-image: linear-gradient(120deg, #c39b9b 0%, #bd2b2b 100%); 
+     margin-left: 400px;
+     margin-right: 500px;
+     margin-top:30px ;
+     margin-bottom: 30px;  
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+
+    }
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root{
+  --nav-width: 92px;
+
+  /*===== Colores =====*/
+  --first-color: #0C5DF4;
+  --bg-color: #12192C;
+  --sub-color: #B6CEFC;
+  --white-color: #FFF;
+  
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+  
+  /*===== z index =====*/
+  --z-fixed: 100;
+}
+
+
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+/*body{
+  position: relative;
+  margin: 0;
+  padding: 2rem 0 0 6.75rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: .5s;
+}*/
+h1{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/*===== l NAV =====*/
+.l-navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  padding: 1.5rem 1.5rem 2rem;
+  transition: .5s;
+  z-index: var(--z-fixed);
+}
+
+/*===== NAV =====*/
+.nav{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.nav__brand{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav__toggle{
+  font-size: 1.25rem;
+  padding: .75rem;
+  cursor: pointer;
+}
+.nav__logo{
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.nav__link{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__link:hover{
+  background-color: var(--first-color);
+}
+.nav__icon{
+  font-size: 1.25rem;
+}
+.nav__name{
+  font-size: var(--small-font-size);
+}
+
+/*Expander menu*/
+.expander{
+  width: calc(var(--nav-width) + 9.25rem);
+}
+
+/*Add padding body*/
+.body-pd{
+  padding: 2rem 0 0 16rem;
+}
+
+/*Active links menu*/
+.active{
+  background-color: var(--first-color);
+}
+
+/*===== COLLAPSE =====*/
+.collapse{
+  grid-template-columns: 20px max-content 1fr;
+}
+.collapse__link{
+  justify-self: flex-end;
+  transition: .5s;
+}
+.collapse__menu{
+  display: none;
+  padding: .75rem 2.25rem;
+}
+.collapse__sublink{
+  color: var(--sub-color);
+  font-size: var(--small-font-size);
+}
+.collapse__sublink:hover{
+  color: var(--white-color);
+}
+
+/*Show collapse*/
+.showCollapse{
+  display: block;
+}
+
+/*Rotate icon*/
+.rotate{
+  transform: rotate(180deg);
+}
